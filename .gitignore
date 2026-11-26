@@ -1,0 +1,24 @@
+# --- NEVER commit keys or certificates ---
+certs/
+*.pem
+*.key
+*.crt
+*.csr
+*.srl
+*.p12
+*.pfx
+
+# --- Secrets / local config ---
+.env
+*.secret
+
+# --- Python / editor clutter ---
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+*.log
+
+# --- Large / generated files ---
+*.joblib
